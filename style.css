@@ -31,3 +31,8 @@ body{
     margin-right: 0.5rem;
 }
 
+@media screen and(min-width:600px){
+    .main-navigation .main-menu > li > a {
+        font-size:0.5em;
+    }
+}
