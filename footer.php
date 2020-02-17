@@ -23,11 +23,8 @@
 				<a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>,
 			<?php endif; ?>
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentynineteen' ) ); ?>" class="imprint">
-				<?php
-				/* translators: %s: WordPress. */
-				printf( __( 'http://localhost/2020-veille/', 'twentynineteen' ), 'WordPress' );
-				?>
-			</a>
+            </a>
+            <a href="<?php echo esc_url(home_url( '/' ) ); ?>" rel="home"><?php echo esc_url( home_url( '/' )); ?></a>
 			<?php
 			if ( function_exists( 'the_privacy_policy_link' ) ) {
 				the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
