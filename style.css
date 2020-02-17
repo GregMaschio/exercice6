@@ -11,3 +11,17 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twentynineteen-child
 */
+
+body{
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.entry .entry-title:before {
+    /* background: #767676; 
+    content: "\020"; 
+    display: block; 
+    height: 2px; 
+    margin: 1rem 0;  */
+    width: 0;
+}
+
