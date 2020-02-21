@@ -1,0 +1,19 @@
+body{
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.entry .entry-title:before {
+    /* background: #767676; 
+    content: "\020"; 
+    display: block; 
+    height: 2px; 
+    margin: 1rem 0;  */
+    width: 0;
+}
+
+
+@media screen and(min-width:600px){
+    .main-navigation .main-menu > li > a {
+        font-size:0.5em;
+    }
+}
